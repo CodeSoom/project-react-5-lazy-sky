@@ -1,0 +1,24 @@
+{
+  "name": "project-react-5-lazy-sky",
+  "version": "1.0.0",
+  "description": "- 경기장을 중심으로한 파리 올림픽/패럴림픽 정보를 얻고 싶을 때 사용합니다. \r - 특히 올림픽 시기에 프랑스를 방문할 여행객에게 유용합니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazy-sky/project-react-5-lazy-sky.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lazy-sky/project-react-5-lazy-sky/issues"
+  },
+  "homepage": "https://github.com/lazy-sky/project-react-5-lazy-sky#readme",
+  "devDependencies": {
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
