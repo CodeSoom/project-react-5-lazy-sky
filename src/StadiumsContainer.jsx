@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Stadium() {
+export default function StadiumsContainer() {
   const stadiums = [
     { id: 1, name: 'Porte de la Chapelle Arena', sportsList: ['배드민턴', '리듬 체조'] },
     { id: 2, name: 'Grand Palais', sportsList: ['펜싱', '태권도'] },

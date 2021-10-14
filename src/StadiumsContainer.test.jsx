@@ -5,17 +5,17 @@
 import { render } from '@testing-library/react';
 
 import React from 'react';
-import Stadium from './Stadium';
+import StadiumsContainer from './StadiumsContainer';
 
-describe('Stadium', () => {
+describe('StadiumsContainer', () => {
   const stadiums = [
     { name: 'Porte de la Chapelle Arena', sportsList: ['배드민턴', '리듬 체조'] },
     { name: 'Eiffel Tower Stadium', sportsList: ['비치 발리볼'] },
   ];
 
-  it('Stadium', () => {
+  it('StadiumsContainer', () => {
     const { getByText } = render((
-      <Stadium />
+      <StadiumsContainer />
     ));
 
     expect(getByText('Porte de la Chapelle Arena')).not.toBeNull();
