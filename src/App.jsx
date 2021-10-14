@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Stadium from './Stadium';
+import StadiumsContainer from './StadiumsContainer';
 
 export default function App() {
   return (
     <div>
-      <Stadium />
+      <StadiumsContainer />
     </div>
   );
 }

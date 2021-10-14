@@ -14,10 +14,26 @@ export default function StadiumsContainer() {
       <ul>
         {stadiums.map((stadium) => (
           <li key={stadium.id}>
-            {stadium.name}
+            <button
+              type="button"
+              // TODO:
+              // onClick={() => handleClick(stadium.id)}
+            >
+              {stadium.name}
+            </button>
           </li>
         ))}
       </ul>
+      {stadiums.map((stadium) => (
+        <div>
+          {stadium.sportsList.map((sports) => (
+            <li>
+              {sports}
+            </li>
+          ))}
+        </div>
+      ))}
+      <ul />
     </div>
   );
 }
