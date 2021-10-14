@@ -1,17 +1,11 @@
 import React from 'react';
 
-function Stadium() {
-  return (
-    <div>
-      <h3>경기장</h3>
-    </div>
-  );
-}
+import StadiumsContainer from './StadiumsContainer';
 
 export default function App() {
   return (
     <div>
-      <Stadium />
+      <StadiumsContainer />
     </div>
   );
 }
